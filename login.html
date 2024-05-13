@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        fieldset{
+            
+            background-color: palevioletred;
+            text-align: center;
+            width:450px;
+            height: 350px;
+            padding:10px; 
+            margin:20px;
+            margin-left:30%;
+            border-radius: 20px;
+            margin-top:70px;
+        }
+        
         .login-image{
            border-color: aliceblue;
            border-radius: 4px;
@@ -20,23 +38,34 @@
            border-radius: 4px;
            width:30% ;
            size: 300px;
+          
+          
         }
+        /* div{
+            padding:100px;
+            margin:100px;
+            text-align:center;
+            flex-direction: column;
+
+        } */
     </style>
 </head>
 <body>
-    
-        <body style="background-color:darkgray"></body>
+    <!-- <div> -->
+        <fieldset>
+        <body style="background-color:burlywood"></body>
     <form action="file:///C:/Users/ramp3565/HTML%20Folder/bookdetails.html">
 
     <h4 style="color: darkblue;font-size: 250%;font-weight: 600;font-style: oblique;"><center>Login</center></h4>
     <center><img class="login-image" src="login.jpg" alt="Login"></center><br>
-    <center><label style="color:rebeccapurple;font-size: 120%;font-style:italic;" for="Card Number">Library Card Number:<input type="text" id="Card Number" placeholder="5555" name="Card Number" required><center></label><br>
-    <center><pre><label style="color:rebeccapurple;font-size: 120%;font-style:oblique;" for="password">Password:        <input type="password" id="password" placeholder="Rampriya5@" name="password" required></center></label></pre><br>
-    <input class="login" type="submit" value="Login">
+    <pre><label style="color:rebeccapurple;font-size: 120%;font-style:oblique;" for="Card Number">Library Card Number: <input type="text" id="Card Number" placeholder="5555" name="Card Number" required></label></pre><br>
+    <br><pre><label style="color:rebeccapurple;font-size: 120%;font-style:oblique;" for="password">Password:            <input type="password" id="password" placeholder="Rampriya5@" name="password" required></label></pre><br>
+    <center><input class="login" type="submit" value="Login"></center>
     <!-- <a href="file:///C:/Users/ramp3565/HTML%20Folder/bookdetails.html">Login</a> -->
     </form>
     
     <!-- <body style="background-color:antiquewhite;"></body> -->
-    
+<!-- </div> -->
+</fieldset>
 </body>
 </html>
