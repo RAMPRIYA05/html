@@ -9,6 +9,42 @@
         margin:0;
         padding:0;
       }
+      nav{
+           background-color:black;
+           opacity:0.8;
+           width:1250px;
+           /* color:blueviolet; */
+           padding:15px;
+        }
+
+        .logo,ul,li,p{
+            display: inline;
+            
+        }
+        li{
+            padding-left:15px;
+            cursor:pointer;
+        }
+        li.hover{
+            color:red;
+        }
+        ul{
+            
+            margin-left:40%;
+            padding-left:5px;
+        }
+        button{
+            color:white;
+            background-color: black;
+            opacity:0.9;
+        }
+        
+
+.logo {
+    size: 30px;
+    height:60px;
+    width: 60px; 
+}
 .grid-container {
   display: inline-grid;
   grid-template-columns:auto auto;
@@ -39,6 +75,18 @@
     </style>
 </head>
 <body>
+  <header>
+    <nav>
+        <img class="logo" src="logo.jpg" alt="Logo">
+        <p style="color:white;font-size:300%;font-weight: 100;padding-left:10px; font-style:italic;">A-Z Library App</p>
+        <ul> 
+            <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/sample.html"><button>Home</button></a></li>
+            <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/about.html"><button>About Us</button></a></li>
+            <!-- <li><a href="">Services</a></li> -->
+            <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/contact.html"><button>Contact Us</button></a></li>
+        </ul>
+    </nav>
+</header> 
     <center><h1>Select Book Category</h1></center>
     <div class="grid-container">
     <a class="grid-item" href="file:///C:/Users/ramp3565/HTML%20Folder/horrorbook.html"><img src="horror.jpg" alt="Horror"></a>

@@ -1,19 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 <style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    nav{
+           background-color:black;
+           opacity:0.8;
+           width:1250px;
+           height:150px;
+           /* color:blueviolet; */
+           padding:15px;
+        }
+
+        .logo,ul,li,p{
+            display: inline;
+            
+        }
+        li{
+            padding-left:15px;
+            cursor:pointer;
+        }
+        li.hover{
+            color:red;
+        }
+        ul{
+            
+            margin-left:10%;
+            padding-left:5px;
+        }
+        button{
+            color:white;
+            background-color: black;
+            opacity:0.9;
+        }
+        
+
+.logo {
+    size: 30px;
+    height:60px;
+}
+.buttons-atag.active{
+   
+   background-color:white;
+  border-color: goldenrod;
+}
+    div{
+        background-color:peachpuff;
+        height:1000px;
+        width: 1300px;
+    }
     h1{
         background-color:black;
         color:white;
         display:block;
         height:70px;
-       padding-top:20px;
+        padding-top:20px;
         font-style: oblique;
         text-align:center;
         /* padding-left:50%; */
     }
     p{
-        background-color:grey;
+        
         color:brown;
         font-family: Arial, Helvetica, sans-serif;
         font-style: italic;
+        font-size: large;
+        margin-left:100px;
         width:980px;
         height: 100px;
         display:inline-block;
@@ -22,6 +80,25 @@
 
     }
 </style>
-<h1>About</h1>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img class="logo" src="logo.jpg" alt="Logo">
+            <p style="color:white;font-size:300%;font-weight: 100;padding-left:10px; font-style:italic;">A-Z Library App</p>
+            <ul> 
+                <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/sample.html"><button>Home</button></a></li>
+                <li><a  class="buttons-atag active" href="file:///C:/Users/ramp3565/HTML%20Folder/about.html"><button>About Us</button></a></li>
+                <!-- <li><a href="">Services</a></li> -->
+                <li><a  href="file:///C:/Users/ramp3565/HTML%20Folder/contact.html"><button>Contact Us</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+<br><h1>About Us</h1>
 <p>A A-Z Library App is a digital platform designed to provide users with access to a wide range of books and other resources.These apps offer convience and flexiblity by allowing users to browse,borrow,read and manage books from their smartphones,computers.</p>
 <center><a href="file:///C:/Users/ramp3565/HTML%20Folder/sample.html">Exit</a></center>
+</div>
+</body>
+</html>

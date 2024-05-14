@@ -11,22 +11,58 @@
             padding:0;
 
         }
+        nav{
+           background-color:black;
+           opacity:0.8;
+           width:1250px;
+           /* color:blueviolet; */
+           padding:15px;
+        }
+
+        .logo,ul,li,p{
+            display: inline;
+            
+        }
+        li{
+            padding-left:15px;
+            cursor:pointer;
+        }
+        li.hover{
+            color:red;
+        }
+        ul{
+            
+            margin-left: 40%;
+            padding-left:5px;
+        }
+        button{
+            color:white;
+            background-color: black;
+            opacity:0.9;
+        }
+        
+
+.logo {
+    size:30px;
+    height:80px;
+    width:80px;
+}
         .column {
-            width: 100%;
-            display:block;
-            margin-bottom: 20px;
+            width:50%;
+            margin-bottom:20px;
+            float:left;
             
         }
         .row:after{
             content: "";
             display:table;
             clear:both;
-           
+       
            
         }
         img{
-            height:300px;
-            width:300px;
+            height:250px;
+            width:200px;
             padding:10px;
             margin:10px;
             text-align: center;
@@ -37,15 +73,13 @@
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
             transition: 0.3s;
             width: 40%;
-            height:500px;
-            /* width:100%;
-            min-height: 100vh; */
+            height:400px;
             flex-direction:column;
             display: flex;
-            padding:10px;
-            margin:20px;
+            margin:20px; 
             text-align: center;
             justify-content: center;
+            margin-left: 200px;
 }
 
 .card:hover {
@@ -53,13 +87,26 @@
 }
 
 .container {
-  padding: 2px 16px;
+  padding: 2px 16px; 
   background-color:brown;
+  height:100px;
 
 }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <img class="logo" src="logo.jpg" alt="Logo">
+            <p style="color:white;font-size:300%;font-weight: 100;padding-left:10px; font-style:italic;">A-Z Library App</p>
+            <ul> 
+                <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/sample.html"><button>Home</button></a></li>
+                <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/about.html"><button>About Us</button></a></li>
+                <!-- <li><a href="">Services</a></li> -->
+                <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/contact.html"><button>Contact Us</button></a></li>
+            </ul>
+        </nav>
+    </header> 
     <center><h1>Horror Books</h1></center>
     <div class="row">
        <div class="column">
@@ -67,8 +114,8 @@
        <a href="file:///C:/Users/ramp3565/HTML%20Folder/sale.html"><img src="gonegirl.png" alt="Gone Girl"></a>
        <div class="container">
         <h4>Gone Girl</h4>
-        <p>Rating:4.4/5</p>
-        <p>Price:Rs.500</p>
+        <p>Rating:4.4/5</p><br>
+        <p>Price:Rs.500</p><br>
         <p><a href="file:///C:/Users/ramp3565/HTML%20Folder/sale.html"><button>Buy</button></a></p>
        </div>
        </div>
@@ -78,8 +125,8 @@
        <a href="file:///C:/Users/ramp3565/HTML%20Folder/salethegirlwiththedragon.html"><img src="thegirlwiththedragon.jpg" alt="The Girl with the Dragon"></a>
        <div class="container"> 
        <h4>The Girl with the Dragon</h4>
-        <p>Rating:4.6/5</p>
-        <p>Price:Rs.700</p>
+        <p>Rating:4.6/5</p><br>
+        <p>Price:Rs.700</p><br>
         <p><a href="file:///C:/Users/ramp3565/HTML%20Folder/salethegirlwiththedragon.html"><button>Buy</button></a></p>
     </div>
     </div>

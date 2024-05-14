@@ -5,19 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      /* td{
-        background-color:palevioletred;
-      } */
+      *{
+        margin:0;
+        padding:0;
+      }
+
+      nav{
+           background-color:black;
+           opacity:0.8;
+           width:1250px;
+           /* color:blueviolet; */
+           padding:15px;
+        }
+
+        .logo,ul,li,p{
+            display: inline;
+            
+        }
+        li{
+            padding-left:15px;
+            cursor:pointer;
+        }
+        li.hover{
+            color:red;
+        }
+        ul{
+            
+            margin-left: 40%;
+            padding-left:5px;
+        }
+        button{
+            color:white;
+            background-color: black;
+            opacity:0.9;
+        }
+        
+
+.logo {
+    size: 30px;
+    height: 60px;
+}
       th{
         background-color:burlywood;
+       
       }
+      table{
+        margin-left: 350px;
+       
+      }
+      .button {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        /* padding: 15px 32px; */
+        text-align:center;
+        text-decoration: none;
+        display: inline-block;
+        height: 20px;
+        width: 50px;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left:350px;
+       
+}
     </style>
 </head>
 <body>
-    <fieldset>
+  <header>
+    <nav>
+        <img class="logo" src="logo.jpg" alt="Logo">
+        <p style="color:white;font-size:300%;font-weight: 100;padding-left:10px; font-style:italic;">A-Z Library App</p>
+        <ul> 
+            <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/sample.html"><button>Home</button></a></li>
+            <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/about.html"><button>About Us</button></a></li>
+            <!-- <li><a href="">Services</a></li> -->
+            <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/contact.html"><button>Contact Us</button></a></li>
+        </ul>
+    </nav>
+</header> 
+  <div style="background-color:beige;height:580px;">
+  <!-- <form  action="file:///C:/Users/ramp3565/HTML%20Folder/selectbook.html"> -->
      
     <table border="1">
-        <caption>
+        <caption style="color: brown;font-size:larger;margin-top:10px;padding:20px;">
             Book Name and its Author Name
           </caption>
         <tr>
@@ -27,7 +98,7 @@
           <th>Language</th>
         </tr>
         <tr>
-          <td style="background-color:lightgoldenrodyellow;" rowspan = "2">Horror</td>
+          <td style="background-color:khaki;" rowspan = "2">Horror</td>
           <td style="background-color:powderblue;">Gone Girl</td>
           <td style="background-color:powderblue;">Robert</td>
           <td style="background-color:powderblue;">English</td>
@@ -49,7 +120,7 @@
           <td style="background-color:mediumpurple">Hindi</td>
         </tr>
         <tr>
-            <td style="background-color:lightgoldenrodyellow;" rowspan = "2">Comics</td>
+            <td style="background-color:khaki;" rowspan = "2">Comics</td>
             <td style="background-color:sienna">The Sand Man</td>
             <td style="background-color:sienna">Anitha</td>
             <td style="background-color:sienna">English</td>
@@ -77,8 +148,19 @@
           </tr>
 
 
-    </table>    
-    <a href="file:///C:/Users/ramp3565/HTML%20Folder/selectbook.html">Next</a> 
-</fieldset> 
+    </table>  
+  
+  <!-- <input type="submit" value="Next"> 
+  </form> -->
+  <a href="file:///C:/Users/ramp3565/HTML%20Folder/login.html" class="button">Back</a>
+  <a href="file:///C:/Users/ramp3565/HTML%20Folder/selectbook.html" class="button">Next</a>
+  
+    
+ 
+    <!-- <form action="file:///C:/Users/ramp3565/HTML%20Folder/login.html">
+    <input type="submit" value="Back"> 
+    </form> -->
+    <!-- <center><a href="file:///C:/Users/ramp3565/HTML%20Folder/selectbook.html">Next</a></center> -->
+  </div>
 </body>
 </html>

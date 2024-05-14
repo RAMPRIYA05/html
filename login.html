@@ -38,34 +38,72 @@
            border-radius: 4px;
            width:30% ;
            size: 300px;
+           background-color: ivory;
           
           
         }
-        /* div{
-            padding:100px;
-            margin:100px;
-            text-align:center;
-            flex-direction: column;
+       
+        nav{
+           background-color:black;
+           opacity:0.8;
+           width:1350px;
+           /* color:blueviolet; */
+           padding:15px;
+        }
 
-        } */
+        .logo,ul,li,p{
+            display: inline;
+            
+        }
+        li{
+            padding-left:15px;
+            cursor:pointer;
+        }
+        li.hover{
+            color:red;
+        }
+        ul{
+            
+            margin-left: 40%;
+            padding-left:5px;
+        }
+        button{
+            color:white;
+            background-color: black;
+            opacity:0.9;
+        }
+        
+
+.logo {
+    size: 30px;
+    height: 60px;
+}
     </style>
 </head>
 <body>
-    <!-- <div> -->
+    <header>
+        <nav>
+            <img class="logo" src="logo.jpg" alt="Logo">
+            <p style="color:white;font-size:300%;font-weight: 100;padding-left:10px; font-style:italic;">A-Z Library App</p>
+            <ul> 
+                <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/sample.html"><button>Home</button></a></li>
+                <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/about.html"><button>About Us</button></a></li>
+                <!-- <li><a href="">Services</a></li> -->
+                <li><a href="file:///C:/Users/ramp3565/HTML%20Folder/contact.html"><button>Contact Us</button></a></li>
+            </ul>
+        </nav>
+    </header> 
         <fieldset>
         <body style="background-color:burlywood"></body>
-    <form action="file:///C:/Users/ramp3565/HTML%20Folder/bookdetails.html">
+    <form action="file:///C:/Users/ramp3565/HTML%20Folder/book.html?">
 
     <h4 style="color: darkblue;font-size: 250%;font-weight: 600;font-style: oblique;"><center>Login</center></h4>
     <center><img class="login-image" src="login.jpg" alt="Login"></center><br>
     <pre><label style="color:rebeccapurple;font-size: 120%;font-style:oblique;" for="Card Number">Library Card Number: <input type="text" id="Card Number" placeholder="5555" name="Card Number" required></label></pre><br>
     <br><pre><label style="color:rebeccapurple;font-size: 120%;font-style:oblique;" for="password">Password:            <input type="password" id="password" placeholder="Rampriya5@" name="password" required></label></pre><br>
     <center><input class="login" type="submit" value="Login"></center>
-    <!-- <a href="file:///C:/Users/ramp3565/HTML%20Folder/bookdetails.html">Login</a> -->
     </form>
-    
-    <!-- <body style="background-color:antiquewhite;"></body> -->
-<!-- </div> -->
+
 </fieldset>
 </body>
 </html>
